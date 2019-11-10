@@ -1,0 +1,23 @@
+Description of variables
+
+The variables used for this assignment use the following terminology:
+
+Mean - the mean value of the measurement
+STD - the standard deviation of the measurement
+
+Freq - indicates the measurement is in the frequency domain
+Time - indicates the measurement is in the time domain
+
+Acc - indicates the measurement is from the accelerometer
+Gyro - indicates the measurement is from the gyroscope
+Body - means that this is the signal which is based on the body of the subject
+Gravity - means that this is the signal which is based on the gravitational force
+Jerk - indicates a derivative of either of the linear accelerations (AccJerk) or angular velocity (GyroJerk)
+
+These last 5 indicators can be strung together in a variable name and then have the composite meaning,
+for example:  BodyAcc = the signal of the accelerometer which is based on the subject's body.
+for example:  BodyGyroJerk = the Jerk (derivative) of the the signal of the gyroscope which is based on the subject's body.
+
+Mag - is where the Euclidean norm of the 3D signals has been used to get the magnitude
+
+In_X, In_Y, In_Z - indicate the measurement is in the x axis, in the y axis, in the z axis respectively.
